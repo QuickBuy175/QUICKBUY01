@@ -986,7 +986,7 @@
                 card.innerHTML = `
                     <div>
                         <div class="relative w-full h-44 bg-gray-50 flex items-center justify-center overflow-hidden cursor-pointer" onclick="openProductModal('${p.id}')">
-                            <img src="https://raw.githubusercontent.com/QuickBuy175/QUICKBUY01/cd1865a2f883d06dcbc8dd4b092ad100f9f1a603/Image/photo_2026-05-20_10-41-47.jpg" alt="${p.title}" class="h-full w-full object-cover group-hover:scale-105 transition duration-500" onerror="this.src='https://placehold.co/400x400/e2e8f0/475569?text=Product+Image'">
+                            <img src="${p.image}" alt="${p.title}" class="h-full w-full object-cover group-hover:scale-105 transition duration-500" onerror="this.src='https://placehold.co/400x400/e2e8f0/475569?text=Product+Image'">
                             <span class="absolute top-2 left-2 bg-white/90 backdrop-blur-sm text-indigo-700 text-[10px] font-bold px-2 py-0.5 rounded-md shadow-sm border border-indigo-100">
                                 ${p.category}
                             </span>
