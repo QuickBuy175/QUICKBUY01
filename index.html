@@ -1549,7 +1549,7 @@
                 reader.onload = function(event) {
                     state.uploadedImageDataUrl = event.target.result;
                     document.getElementById('crud-img-preview').src = event.target.result;
-                    document.getElementById('crud-img-preview-box').classList.remove('hidden');
+                    document.getElementById('crud-img-preview-box').classList.remove();
                 };
                 reader.readAsDataURL(file);
             }
